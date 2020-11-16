@@ -1,0 +1,11 @@
+name: hugo
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  hugo:
+    steps:
+      - name: Simple
+        run: echo "TEST"
