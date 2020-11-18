@@ -1,4 +1,9 @@
 baseURL = "https://dispersion-fi.github.io/docs/"
 languageCode = "en-us"
-title = "Dispersion DeFi"
+title = "Dispersion"
 theme = "book"
+
+[params]
+    BookTheme = 'dark'
+    BookLogo = 'img/logo.jpg'
+    BookServiceWorker = true
